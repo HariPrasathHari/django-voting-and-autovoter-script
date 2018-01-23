@@ -22,3 +22,10 @@ after voting questions can be entered in admin
 http://127.0.0.1:8000/admin/
 
 add the question and choices 
+
+after entering the questions you can run the script of autovoting by 
+```bash
+pip install mechanizer
+python2 autovoter.py 
+```
+this script makes voting automated and can poll 100+ votes in a minute
